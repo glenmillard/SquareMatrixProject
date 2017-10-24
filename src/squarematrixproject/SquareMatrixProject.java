@@ -11,9 +11,7 @@ package squarematrixproject;
  */
 public class SquareMatrixProject {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         int [][] squarematrix =  {{ 10,12,11},{ 9,8,31},{ 2,16,24}}; //initalize the 3x3 matrix
 
