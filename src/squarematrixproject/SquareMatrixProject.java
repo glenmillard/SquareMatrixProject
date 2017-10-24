@@ -14,7 +14,7 @@ public class SquareMatrixProject {
     
     public static void main(String[] args) {
         int [][] squarematrix =  {{ 10,12,11},{ 9,8,31},{ 2,16,24}}; //initalize the 3x3 matrix
-
+    // as for creating one on the fly, I was a little overwhelmed.
         int primaryDiagonalSum = 0, secondaryDiagonalSum = 0; //initalize the variables
 
         int size = squarematrix.length -1; //size of the matrix
