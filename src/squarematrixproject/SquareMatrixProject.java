@@ -25,11 +25,11 @@ public class SquareMatrixProject {
 
                 primaryDiagonalSum += squarematrix[i][i];
 
-                secondaryDiagonalSum+= squarematrix[i][size-i];
+                secondaryDiagonalSum += squarematrix[i][size-i];
 
         }
 
-          TextIO.putln("Primary diagonal sum = " +primaryDiagonalSum); //print out the results
+          TextIO.putln("Primary diagonal sum = " + primaryDiagonalSum); //print out the results
 
           TextIO.putln("Secondary diagonal sum = " + secondaryDiagonalSum); //print out the results
 
