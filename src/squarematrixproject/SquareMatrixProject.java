@@ -15,45 +15,23 @@ public class SquareMatrixProject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int [][] squarematrix =  {
+        int [][] squarematrix =  {{ 10,12,11},{ 9,8,31},{ 2,16,24}}; //initalize the 3x3 matrix
 
+        int primaryDiagonalSum = 0, secondaryDiagonalSum = 0; //initalize the variables
 
-                      { 10,12,11},
+        int size = squarematrix.length -1; //size of the matrix
 
-
-                      { 9,8,31},
-
-
-                      { 2,16,24},
-
-                     
-
-                    };
-
-
-        int primaryDiagonalSum = 0, secondaryDiagonalSum = 0;
-
-
-        int size = squarematrix.length -1;
-
-
-        for(int i = 0; i<squarematrix.length; i++){
-
+        for(int i = 0; i<squarematrix.length; i++){ //using a for loop to do the calculations
 
                 primaryDiagonalSum += squarematrix[i][i];
 
-
                 secondaryDiagonalSum+= squarematrix[i][size-i];
-
 
         }
 
+          TextIO.putln(" Primary diagonal sum = " +primaryDiagonalSum); //print out the results
 
-          System.out.println(" Primary diagonal sum = " +primaryDiagonalSum);
-
-
-          System.out.println(" Secondary diagonal sum = " + secondaryDiagonalSum);
-
+          TextIO.putln(" Secondary diagonal sum = " + secondaryDiagonalSum); //print out the results
 
         }
     }
