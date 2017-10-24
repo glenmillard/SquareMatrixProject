@@ -21,7 +21,7 @@ public class SquareMatrixProject {
 
         int size = squarematrix.length -1; //size of the matrix
 
-        for(int i = 0; i<squarematrix.length; i++){ //using a for loop to do the calculations
+        for(int i = 0; i < squarematrix.length; i++){ //using a for loop to do the calculations
 
                 primaryDiagonalSum += squarematrix[i][i];
 
@@ -29,9 +29,9 @@ public class SquareMatrixProject {
 
         }
 
-          TextIO.putln(" Primary diagonal sum = " +primaryDiagonalSum); //print out the results
+          TextIO.putln("Primary diagonal sum = " +primaryDiagonalSum); //print out the results
 
-          TextIO.putln(" Secondary diagonal sum = " + secondaryDiagonalSum); //print out the results
+          TextIO.putln("Secondary diagonal sum = " + secondaryDiagonalSum); //print out the results
 
         }
     }
